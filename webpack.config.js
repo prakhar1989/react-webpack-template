@@ -1,8 +1,8 @@
 module.exports = {
   cache: true,
-  entry: './index',
+  entry: './src/app.js',
   output: {
-    filename: 'browser-bundle.js'
+    filename: './build/app.min.js'
   },
   devtool: 'source-map',
   module: {
